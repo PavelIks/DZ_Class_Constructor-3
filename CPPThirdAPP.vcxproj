@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Desktop\SAS\C_Apple.h" />
-    <ClInclude Include="..\..\..\Desktop\SAS\E_Color.h" />
-    <ClInclude Include="..\..\..\Desktop\SAS\E_Size.h" />
-    <ClInclude Include="..\..\..\Desktop\SAS\S_Position.h" />
+    <ClInclude Include="C_Apple.h" />
+    <ClInclude Include="E_Color.h" />
+    <ClInclude Include="E_Size.h" />
+    <ClInclude Include="S_Position.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\SAS\CPPThirdAPP.cpp" />
-    <ClCompile Include="..\..\..\Desktop\SAS\C_Apple.cpp" />
+    <ClCompile Include="CPPThirdAPP.cpp" />
+    <ClCompile Include="C_Apple.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
