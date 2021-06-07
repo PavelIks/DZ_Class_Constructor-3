@@ -25,7 +25,7 @@
     <ClInclude Include="..\..\..\Desktop\SAS\S_Position.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\SAS\ConsoleApplication1.cpp" />
+    <ClCompile Include="..\..\..\Desktop\SAS\CPPThirdAPP.cpp" />
     <ClCompile Include="..\..\..\Desktop\SAS\C_Apple.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

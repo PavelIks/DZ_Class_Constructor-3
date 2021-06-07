@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\SAS\S_Position.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\Desktop\SAS\E_Color.h">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Desktop\SAS\E_Size.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Desktop\SAS\S_Position.h">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Desktop\SAS\C_Apple.h">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\SAS\C_Apple.cpp">
+    <ClCompile Include="..\..\..\Desktop\SAS\CPPThirdAPP.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Desktop\SAS\ConsoleApplication1.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="..\..\..\Desktop\SAS\C_Apple.cpp">
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
