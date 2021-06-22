@@ -23,38 +23,39 @@ C_Apple::C_Apple(E_Colors _color, E_Sizes _size, float _weight, char* _variety, 
 
 void C_Apple::show_info()
 {
-    std::cout << "Color:\t";
+    std::cout << "Color: ";
     if (_color == 1)
     {
-        std::cout << "green";
+        std::cout << "green\n";
     }
     else if (_color == 2)
     {
-        std::cout << "red";
+        std::cout << "red\n";
     }
     else if (_color == 3)
     {
-        std::cout << "yellow";
+        std::cout << "yellow\n";
     }
     else
     {
-        std::cout << "brown";
-        std::cout << "\nSize:\t";
+        std::cout << "brown\n";
     }
+    std::cout << "Size: ";
     if (_size == 1)
     {
-        std::cout << "small";
+        std::cout << "small\n";
     }
     else if (_size == 2)
     {
-        std::cout << "medium";
+        std::cout << "medium\n";
     }
     else
     {
-        std::cout << "big";
-        std::cout << "\nWeight:\t" << this->_weight << "\nVariety:\t" << this->_variety
-            << "\nPosition: (" << this->_position.x << ";" << this->_position.y << ")\n";
+        std::cout << "big\n";
     }
+    std::cout << "Weight: " << this->_weight << "\n";
+    std::cout << "Variety: " << this->_variety << "\n";
+    std::cout << "Position: " << this->_position.x << ":" << this->_position.y << "\n";
 }
 
 void C_Apple::move_to(int _x, int _y)
